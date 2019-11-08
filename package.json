@@ -1,0 +1,31 @@
+{
+  "name": "bouncyballs",
+  "version": "1.0.0",
+  "description": "Bouncy",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lazar Grnarov",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.6.0",
+    "chai": "^4.2.0",
+    "common-js": "^0.3.8",
+    "jsdom": "^15.2.0"
+  },
+  "devDependencies": {
+    "@types/expect": "^1.20.4",
+    "@types/mocha": "^5.2.7",
+    "mocha": "^6.2.2",
+    "ts-loader": "^6.2.1",
+    "ts-mocha": "^6.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

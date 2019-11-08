@@ -1,0 +1,11 @@
+{
+  "diff": true,
+  "extension": ["ts", "tsx"],
+  "opts": false,
+  "package": "./package.json",
+  "reporter": "spec",
+  "slow": 75,
+  "require":["jsdom-global/register"],
+  "timeout": 2000,
+  "ui": "bdd"
+}
